@@ -1,0 +1,1 @@
+{"name":"liveavatar-sandbox-demo","private":true,"scripts":{"build":"vite build","dev":"vite","start":"node server.mjs"},"type":"module","version":"0.1.0","dependencies":{"@heygen/liveavatar-web-sdk":"^0.0.19"},"devDependencies":{"vite":"^8.3.5"}}

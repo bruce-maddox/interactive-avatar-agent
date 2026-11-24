@@ -1,0 +1,14 @@
+# interactive-avatar-agent
+
+> A starter for building your own interactive AI avatar agent: a live,
+> talking digital avatar that answers questions by voice or text. Minimal
+> Node.js backend plus a web page, running on HeyGen LiveAvatar FULL mode
+> with a free sandbox demo.
+
+## Docs
+
+- [README.md](README.md): what it is, how it works, run instructions, knowledge base, FAQ
+
+## Optional
+
+- [knowledge.md.example](knowledge.md.example): template for the avatar's knowledge file

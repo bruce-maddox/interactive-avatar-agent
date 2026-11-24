@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>LiveAvatar Sandbox Demo</title>
+  <link rel="stylesheet" href="/src/style.css" />
+</head>
+<body>
+  <main>
+    <h1>LiveAvatar Sandbox Demo</h1>
+    <p class="note">Sandbox: free test avatar (Wayne), sessions auto-end after ~60 seconds. Hit Start again for a fresh session. No credits are spent.</p>
+
+    <video id="avatarVideo" autoplay playsinline muted></video>
+    <p id="status">Idle — press Start.</p>
+    <p id="debug" class="debug"></p>
+
+    <div class="controls">
+      <button id="startBtn">Start session</button>
+      <button id="stopBtn" disabled>Stop</button>
+      <button id="interruptBtn" disabled>Interrupt</button>
+      <button id="micBtn" disabled>Unmute mic</button>
+      <button id="soundBtn" disabled>Enable sound</button>
+    </div>
+
+    <div class="controls">
+      <input id="textInput" type="text" placeholder="Or type a message for the avatar…" disabled />
+      <button id="sendBtn" disabled>Send</button>
+    </div>
+
+    <h2>Transcript</h2>
+    <div id="transcript"></div>
+  </main>
+  <script type="module" src="/src/main.js"></script>
+</body>
+</html>

@@ -1,0 +1,16 @@
+# Example knowledge base — replace with your own facts
+#
+# This file's contents are pasted into the Context's Knowledge section.
+# Put must-know facts HERE, in plain text. Links are only summarized by
+# LiveAvatar, so anything the avatar must answer exactly belongs here.
+
+## About us
+- Acme Corp sells wireless earbuds. Support hours are 9am–6pm, Mon–Fri.
+- Returns are free within 30 days, no questions asked.
+
+## Pricing
+- Acme Buds: $79. Acme Buds Pro: $129. Shipping is free over $50.
+
+## Troubleshooting
+- If the left bud won't pair: put both buds in the case, hold the case
+  button for 10 seconds until the light flashes amber, then re-pair.
