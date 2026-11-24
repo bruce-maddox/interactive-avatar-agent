@@ -3,3 +3,15 @@ dist/
 .env
 *.log
 __pycache__/
+
+# --- Private files: must never enter this public repo ---
+# Even if one is copied in by mistake, git will not stage it.
+# (The pre-push hook in scripts/ is the backstop.)
+docs/process.md
+knowledge.md
+PRIVATE-NOTES.md
+tweets*.js
+note-tweet.js
+posts.json
+posts.txt
+stats.json
